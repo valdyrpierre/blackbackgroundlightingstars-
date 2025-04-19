@@ -32,6 +32,23 @@ header .team-name {
     color: #fbbd18; /* Custom yellow for text */
 }
 
+/* Header Image */
+.header-img {
+    float: left;
+    height: 150px;
+    width: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+/* Page Title */
+.page-title {
+    color: #fbbd18; /* Custom yellow */
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
 /* Typography */
 h1, h2 {
     color: #fbbd18; /* Custom yellow for headings */
@@ -56,6 +73,18 @@ main {
     padding: 20px;
 }
 
+/* Tryouts Content */
+.tryouts-content {
+    background-color: #000; /* Black background */
+    color: #fbbd18; /* Custom yellow text */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 /* Footer */
 footer {
     background-color: #000; /* Black background */
@@ -77,6 +106,30 @@ footer .social-icons a:hover {
     color: #fff; /* White text on hover */
 }
 
+/* Social Media Logos */
+.social-icons {
+    text-align: center; /* Center the icons */
+    margin: 20px 0; /* Add spacing above and below */
+}
+
+.social-icons a {
+    margin: 0 15px; /* Add more spacing between icons */
+    display: inline-block; /* Ensure icons are inline */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Add hover effect */
+}
+
+.social-logo {
+    width: 190px; /* Increase size to 60px */
+    height: 100px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: Make logos circular */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.social-icons a:hover .social-logo {
+    transform: scale(1.2); /* Slightly enlarge on hover */
+    opacity: 0.9; /* Slightly reduce opacity on hover */
+}
+
 /* Button Styling */
 button {
     background-color: #fbbd18; /* Custom yellow for button */
@@ -91,6 +144,24 @@ button {
 button:hover {
     background-color: #1453a0; /* Custom blue on hover */
     color: #fff; /* White text for contrast */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tryout Button */
+.tryout-button {
+    background-color: #fbbd18; /* Custom yellow */
+    color: #000; /* Black text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tryout-button:hover {
+    background-color: #1453a0; /* Custom blue */
+    color: #fff; /* White text */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
